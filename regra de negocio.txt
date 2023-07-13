@@ -1,0 +1,8 @@
+Exercício de fixação
+
+No projeto acima, a função countClientsMatching(partialName: string), retorna quantos dos clientes possuem em seu nome o partialName, informado como argumento. Para isto, esta função faz a chamada de uma outra função requestClients(), responsável por obter os clientes cadastrados no sistema. Você deve escrever os testes para os dois cenários abaixo da função countClientsMatching, mockando a função requestClients para especificar cada um dos cenários no próprio teste.
+
+"should return 0 when 0 out of 2 clients match"
+
+"should return 2 when 2 out of 4 clients match"
+
